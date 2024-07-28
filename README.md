@@ -1,6 +1,6 @@
 # Docker
 
-*CONTAINERS:
+CONTAINERS:
 
 Containers will not have os by default.
 
