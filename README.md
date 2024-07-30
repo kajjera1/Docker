@@ -21,21 +21,21 @@ Dockerfile is a file where you provide the steps to build your Docker Image.
 
  ##instruction present in docker file [components in docker file]
  
- 1.FROM: Specifies the base image to use for the build.
+ 1.FROM:  Specifies the base image to use for the build.
  
- 2.RUN: Executes commands in the shell of the container during the build process.
+ 2.RUN:  Executes commands in the shell of the container during the build process.
  
- 3.COPY: Copies files or directories from the host machine into the image's filesystem.
+ 3.COPY:  Copies files or directories from the host machine into the image's filesystem.
  
- 4.CMD: Specifies the default command to run when the container starts. 
+ 4.CMD:  Specifies the default command to run when the container starts. 
  
- 5.EXPOSE: Informs Docker that the container listens on specific network ports at runtime.  It does not actually publish the ports.
+ 5.EXPOSE:  Informs Docker that the container listens on specific network ports at runtime.  It does not actually publish the ports.
  
- 6.ENV: Sets environment variables inside the container.
+ 6.ENV:  Sets environment variables inside the container.
  
- 7.ENTRYPOINT: Configures the container to run as an executable. 
+ 7.ENTRYPOINT:  Configures the container to run as an executable. 
  
- 8.LABEL: Adds metadata to the image.
+ 8.LABEL:  Adds metadata to the image.
  
 ## CONTAINERS
 
