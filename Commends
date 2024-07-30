@@ -1,0 +1,41 @@
+1. docker images
+    Lists docker images on the host machine.
+
+2. docker build -t
+    Builds image from Dockerfile.
+    build creates an image out of the Dockerfile in the current directory
+    -t -> a tag to our image so it can be easily identified
+
+3. docker run -d 
+    run ->we want to run the container
+    -d  ->  detached mode
+    -p -> option signifies the port number in the format local-port:container-port.
+
+        use docker run --help to look into more arguments.
+
+4. docker ps
+     Lists running containers on the host machine.
+
+5. docker ps -a 
+     check running and stoped docker containers
+
+6. docker stop
+     Stops running container.
+ 
+7. docker start
+     Starts a stopped container.
+
+8. docker rm
+     Removes a stopped container.
+
+9. docker rmi
+    Removes an image from the host machine.
+
+10. docker pull
+    Downloads an image from the configured registry.
+
+11. docker push
+        Uploads an image to the configured registry.
+
+12. docker exec
+        Run a command in a running container.
