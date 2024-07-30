@@ -7,11 +7,9 @@
     -t -> a tag to our image so it can be easily identified
 
 3. docker run -d 
-    run ->we want to run the container
+    run ->  we want to run the container
     -d  ->  detached mode
-    -p -> option signifies the port number in the format local-port:container-port.
-
-        use docker run --help to look into more arguments.
+   use docker run --help to look into more arguments.
 
 4. docker ps
      Lists running containers on the host machine.
