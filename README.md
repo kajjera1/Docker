@@ -4,8 +4,11 @@ Docker is a containerization platform that provides easy way to containerize you
 
 ## ARCHITECTURE:
 DOCKER CLIENT, 
+
 DOCKER DAEMON, 
+
 DOCKER HOST, 
+
 DOCKER REGISTRY
 
 ## Docker components
