@@ -1,7 +1,4 @@
 sudo apt update
 sudo apt install docker.io -y
-sudo systemctl status docker (check docker is running or not)
-sudo usermod -aG docker ubuntu 
-#Grant Access to your user to run docker commands)
-#here G -> group , here ubuntu is adding to docker group
 sudo systemctl start docker
+sudo systemctl status docker (check docker is running or not)
