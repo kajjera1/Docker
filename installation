@@ -5,4 +5,3 @@ sudo usermod -aG docker ubuntu
 #Grant Access to your user to run docker commands)
 #here G -> group , here ubuntu is adding to docker group
 sudo systemctl start docker
-docker run hello-world
