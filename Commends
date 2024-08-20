@@ -37,3 +37,12 @@
 
 12. docker exec
       Run a command in a running container.
+
+13. Check Docker version
+      docker version
+
+14. List namespaces
+        lsns
+
+15. List PID namespaces
+        lsns -t pid
